@@ -21,3 +21,5 @@
  > As of currently there are no tests implemented. 
  ## Questions 
 For any further questions regading the application,  you can contact me at: https://github.com/Palejrey or palejrey@gmail.com
+## Video Link
+https://watch.screencastify.com/v/sqLijkY6NlOAxiyyIQgj
