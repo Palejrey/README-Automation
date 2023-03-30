@@ -6,7 +6,6 @@ const { title } = require('process');
 // TODO: Create an array of questions for user input
 const questions = ["What is the title of your project: ",
      "Please enter the description of the project: ", 
-    "Please enter your table of Contents and please separate each entry with a comma and omit spaces: ", 
     "Please enter the installation instructions: ", 
     "Please enter how to use your project: ", 
     "Please enter any liscense used in this project: ", 
@@ -63,43 +62,38 @@ function init() {
         {
             type:"input",
             message:questions[2],
-            name:"Table",
-        },
-        {
-            type:"input",
-            message:questions[3],
             name:"Installation",
         },
         {
             type:"input",
-            message:questions[4],
+            message:questions[3],
             name:"Usages",
         },
         {
             type:"list",
-            message:questions[5],
+            message:questions[4],
             name:"License",
             choices : ["GNU General Public License v3.0","Mit License","Boost Software License v1.0","Mozilla Public License 2.0","Eclipse Public License 2.0","None"],
         },
         {
             type:"input",
-            message:questions[6],
+            message:questions[5],
             name:"Contibutions",
             
         },
         {
             type:"input",
-            message:questions[7],
+            message:questions[6],
             name:"Test",
         },
         {
             type:"input",
-            message:questions[8],
+            message:questions[7],
             name:"GitHub",
         },
         {
             type:"input",
-            message:questions[9],
+            message:questions[8],
             name:"Email",
         },
     ])
